@@ -1,0 +1,18 @@
+/* Error: There is no module with the namespace "variables".
+ *    ,
+ * 15 |     background-color: variables.$bg-nav;
+ *    |                       ^^^^^^^^^^^^^^^^^
+ *    '
+ *   curso-desarrollo-web\sass\_header.scss 15:23  @use
+ *   curso-desarrollo-web\sass\style.scss 3:1      root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: There is no module with the namespace "variables".\a    \2577 \a 15 \2502      background-color: variables.$bg-nav;\d\a    \2502                        ^^^^^^^^^^^^^^^^^\a    \2575 \a   curso-desarrollo-web\\sass\\_header.scss 15:23  @use\a   curso-desarrollo-web\\sass\\style.scss 3:1      root stylesheet';
+}
