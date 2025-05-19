@@ -1,0 +1,40 @@
+.productos_txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .seccion_miel,
+  .seccion_polen {
+    margin-top: 40px;
+    text-align: center;
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .producto {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: $color-fondo;
+    box-shadow: $sombra;
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  }

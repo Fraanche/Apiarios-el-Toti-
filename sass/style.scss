@@ -1,8 +1,8 @@
-@use 'variables';
-@use 'reset';
-@use 'header';
-@use 'main';
-@use 'productos';
-@use 'galeria';
-@use 'footer';
-
+@import 'variables';
+@import 'reset';
+@import 'header';
+@import 'main';
+@import 'productos';
+@import 'galeria';
+@import 'footer';
+@import 'responsive';

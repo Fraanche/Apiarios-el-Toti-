@@ -1,35 +1,26 @@
 header {
     nav {
-        img {
-            margin-top: 5px;
-            margin-left: 5px;
-            width: 55px;
-            height: 45px;
-        }
+      img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 55px;
+        height: 45px;
+      }
     }
-}
-
-.nav {
+  }
+  
+  .logo {
     display: flex;
-    justify-content: space-between;
-    background-color: variables.$bg-nav;
-    height: 55px;
-
-    ul {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        font-size: 1rem;
+    width: 100%;
+    height: 100%;
+  
+    img {
+      width: 40px;
+      height: 90px;
     }
-
-    a {
-        align-items: center;
-        text-decoration: none;
-        color: rgba(0, 0, 0, 0.815);
-
-        &:hover {
-            background-color: $hover-nav;
-            color: white;
-        }
-    }
-}
+  }
+  
+  .navbar-nav {
+    font-size: 1rem;
+    padding: 15px;
+  }

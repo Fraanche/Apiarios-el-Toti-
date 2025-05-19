@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+    .nav ul {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .nav img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .banner {
+      height: 10rem;
+      background-attachment: scroll;
+  
+      &_title {
+        font-size: 2.5rem;
+      }
+  
+      &_text {
+        font-size: 1.5rem;
+      }
+    }
+  
+    .div_bienvenida {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bienvenida_img,
+    .bienvenida_txt {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .video_explicativo {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      width: 100%;
+  
+      iframe {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+      }
+    }
+  
+    .video_exp_txt,
+    .video-explicativo-video {
+      width: 100%;
+      margin: auto;
+    }
+  
+    .productos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .producto {
+      width: 80%;
+    }
+  
+    .galeria {
+      grid-template-columns: 1fr;
+    }
+  
+    .galeria_txt {
+      margin: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .col-md-6,
+    .col-md-8 {
+      width: 100%;
+    }
+  
+    .col-md-6 img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    .form-label,
+    input,
+    textarea {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
